@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <scriptsrc=""</script>
+    <script>
+        function display(1){
+            document.getElementById('disp').value += '1';
+        }
+        function display(2){
+            document.getElementById('disp').value += '2';
+        }
+
+    </script>
+</head>
+<body>
+    <main class="grid grid-rows-4 grid-flow-col gap-2">
+        <input class="bg-green-200 col-span-3"id= "disp" type="text">
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '1'">1</Button>
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '2'">2</Button>
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '3'">3</Button>
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '-'">-</Button>
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '4'">4</Button>
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '5'">5</Button>
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '6'">6</Button>
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '*'">*</Button>
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '7'">7</Button>
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '8'">8</Button>
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '9'">9</Button>        
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '+'">+</Button>
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '0'">0</Button>
+        <Button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '.'">.</Button>
+        <button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '='">=</Button>
+        <button class="p-10 bg-green-500" onclick="document.getElementById('disp').value += '+'">+</Button>       
+        <button class="p-10 bg-green-200" onclick="document.getElementById('disp').value = ''">clear</button>        
+    </main>
+</body>
+</html>
